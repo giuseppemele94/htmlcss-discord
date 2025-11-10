@@ -1,1 +1,1 @@
-![Screenshot](./screenshot/discord_2.png.png)
+![Screenshot](./screenshot/discord_2.png)
