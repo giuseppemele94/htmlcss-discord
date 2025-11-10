@@ -4,6 +4,9 @@
     box-sizing: border-box;
 }
 
+.body {
+    font-family: Whitney, 'Helvetica Neue', Helvetica, Arial, sans-serif;
+}
 .app {
     width: 100%;
     height: 100vh;
@@ -146,8 +149,6 @@ a {
 
 .right-sidebar-second {
     flex-basis: 60%;
-    
-    
 }
 
 .left-sidebar-second {
@@ -169,34 +170,34 @@ a {
     display: flex;
     align-items: center;
     width: 100%;
-    height: 500px;
-    background-color: grey;
+    height: 600px;
+    background-color: lightgrey;
 }
 
 .container-third-section {
     display: flex;
     margin: 0 auto;
-    height: 70%;
-    width: 60%;
+    width: 70%;
+    align-items: center;
+    
 }
 
 .right-sidebar-third {
     flex-basis: 40%;
-    background-color: pink;
-    border: 4px dotted black;
+ 
 }
 
 .left-sidebar-third {
     flex-basis: 60%;
-    background-color: aquamarine;
-    border: 4px dotted black;
+    
 }
 
 .container-fourth-section {
     display: flex;
     margin: 0 auto;
-    height: 70%;
-    width: 60%;
+    
+    width: 70%;
+    align-items : center; 
 }
 
 .right-sidebar-fourth {
