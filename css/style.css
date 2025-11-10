@@ -1,12 +1,15 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@400;600;700&display=swap');
+
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
 
-.body {
-    font-family: Whitney, 'Helvetica Neue', Helvetica, Arial, sans-serif;
+body {
+  font-family: 'Nunito Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;
 }
+
 .app {
     width: 100%;
     height: 100vh;
@@ -157,12 +160,12 @@ a {
 }
 
 .text-section {
-    font-size: 50px;
+    font-size: 40px;
 }
 
 .p-section {
     margin-top: 20px;
-    font-size: 20px ; 
+    font-size: 18px ; 
     line-height: 1.5;
 }
 
@@ -172,6 +175,7 @@ a {
     width: 100%;
     height: 600px;
     background-color: lightgrey;
+    
 }
 
 .container-third-section {
@@ -227,7 +231,7 @@ a {
 }
 
 .text-big-section {
-    
+    font-size: 40px;
     margin-bottom: 20px;
 }
 
@@ -262,10 +266,11 @@ a {
 }
 
 .footer-container {
+    justify-content: space-between;
     display: flex;
     margin: 0 auto;
-    width: 90%;
-     padding: 100px;
+    width: 60%;
+     padding: 70px 0 ;
     
     
 }
@@ -280,9 +285,9 @@ a {
 
 .footer-left {
     display:flex ; 
-    
     justify-content: flex-start; 
   align-items: flex-start;
+  flex-direction: column ;
 }
 
 .footer-right {
@@ -361,4 +366,42 @@ margin-bottom: 15px;
     color: white;
     padding: 10px 15px;
     border-radius: 20px;
+}
+
+.social-icons {
+  margin-top: 20px;
+  display: flex;
+  gap: 10px;           
+}
+
+.social-icons a {
+  color: white;          
+  font-size: 22px;       
+ 
+}
+
+.lang-box {
+  display: flex;
+  align-items: center;
+  gap: 8px;                   
+  margin-top: 10px;            
+  
+}
+
+.lang-box .flag {
+  width: 8px ;                
+  height: 8px ;
+  border-radius: 2px;
+  object-fit: cover;
+}
+
+.lang-box span {
+  color: white;
+  font-size: 16px;
+}
+
+.lang-box i {
+  color: white;
+  font-size: 12px;
+  transition: transform 0.2s ease;
 }
