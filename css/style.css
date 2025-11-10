@@ -195,21 +195,16 @@ a {
 .container-fourth-section {
     display: flex;
     margin: 0 auto;
-    
     width: 70%;
     align-items : center; 
 }
 
 .right-sidebar-fourth {
     flex-basis: 60%;
-    background-color: aquamarine;
-    border: 4px dotted black;
 }
 
 .left-sidebar-fourth {
     flex-basis: 40%;
-    background-color: pink;
-    border: 4px dotted black;
 }
 
 .section-five {
