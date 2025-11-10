@@ -7,7 +7,7 @@
 }
 
 body {
-  font-family: 'Nunito Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+    font-family: 'Nunito Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;
 }
 
 .app {
@@ -83,8 +83,6 @@ a {
     background-size: cover;
     display: flex;
     align-items: center;
-
-
 }
 
 .hero-content {
@@ -93,8 +91,6 @@ a {
     align-items: center;
     margin: 0 auto;
     width: 50%;
-
-
 }
 
 .hero-title {
@@ -107,10 +103,8 @@ a {
     color: white;
     font-size: 20px;
     line-height: 1.5;
-
     text-align: center;
 }
-
 
 .hero-link {
     margin-top: 25px;
@@ -126,7 +120,6 @@ a {
     background-color: white;
     color: black;
     margin-right: 15px;
-
 }
 
 .hero-link-two {
@@ -147,7 +140,6 @@ a {
     margin: 0 auto;
     width: 70%;
     align-items: center;
-
 }
 
 .right-sidebar-second {
@@ -156,7 +148,6 @@ a {
 
 .left-sidebar-second {
     flex-basis: 40%;
-    
 }
 
 .text-section {
@@ -165,7 +156,7 @@ a {
 
 .p-section {
     margin-top: 20px;
-    font-size: 18px ; 
+    font-size: 18px;
     line-height: 1.5;
 }
 
@@ -175,7 +166,6 @@ a {
     width: 100%;
     height: 600px;
     background-color: lightgrey;
-    
 }
 
 .container-third-section {
@@ -183,25 +173,21 @@ a {
     margin: 0 auto;
     width: 70%;
     align-items: center;
-    
 }
 
 .right-sidebar-third {
     flex-basis: 40%;
- 
 }
 
 .left-sidebar-third {
     flex-basis: 60%;
-    
 }
 
 .container-fourth-section {
     display: flex;
     margin: 0 auto;
     width: 70%;
-    align-items : center; 
-    
+    align-items: center;
 }
 
 .right-sidebar-fourth {
@@ -218,7 +204,6 @@ a {
     background-color: lightgrey;
     display: flex;
     align-items: center;
-    
 }
 
 .section-five-content {
@@ -227,7 +212,6 @@ a {
     display: flex;
     align-items: center;
     flex-direction: column;
-    
 }
 
 .text-big-section {
@@ -236,22 +220,22 @@ a {
 }
 
 .p-big-section {
-    text-align: center ;
+    text-align: center;
     font-size: 18px;
 }
 
 .text-with-back {
     background-image: url("../img/stars.svg");
-    background-size:cover ; 
+    background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
     text-align: center;
-    font-size : 30px; 
-   
+    font-size: 30px;
 }
+
 .hero-link-three {
     background-color: #295fe7;
-    color: white ;
+    color: white;
     margin-top: 30px;
 }
 
@@ -262,7 +246,6 @@ a {
     display: flex;
     flex-direction: column;
     align-items: center;
-   
 }
 
 .footer-container {
@@ -270,60 +253,56 @@ a {
     display: flex;
     margin: 0 auto;
     width: 60%;
-     padding: 70px 0 ;
-    
-    
+    padding: 70px 0;
 }
 
 .link-footer {
     margin-bottom: 10px;
 }
+
 /* prendo 3/12 della riga per la colonna di sinistra (25%) */
 .col-3 {
     flex-basis: calc((100% / 12) * 3);
 }
 
 .footer-left {
-    display:flex ; 
-    justify-content: flex-start; 
-  align-items: flex-start;
-  flex-direction: column ;
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    flex-direction: column;
 }
 
 .footer-right {
     display: flex;
-  
 }
 
 .layout-footer {
-  flex-direction: column;
+    flex-direction: column;
     display: flex;
 }
 
 
 .h4-text-footer {
-color : #295fe7;
-font-size: 18px ;
-margin-bottom: 15px; 
+    color: #295fe7;
+    font-size: 18px;
+    margin-bottom: 15px;
 }
 
 .footer-text-left {
-   color:#295fe7; 
-   font-size: 30px;
+    color: #295fe7;
+    font-size: 30px;
 }
+
 /* divido la colonna di destra in 4 parti uguali ( che occupano il 75%) */
 .col-4 {
     flex-basis: calc((100% / 12) * 4);
-    
 
-  
 }
 
 /* prendo 9/12 della riga per la colonna di destra (75%) */
 .col-9 {
     flex-basis: calc((100% / 12) * 9);
 }
-
 
 .footer-bottom {
     width: 100%;
@@ -332,25 +311,20 @@ margin-bottom: 15px;
     align-items: center;
     height: 100px;
     margin-top: 20px;
-
 }
 
 .footer-bottom-container {
     display: flex;
     margin: 0 auto;
-    
     justify-content: space-between;
     align-items: center;
     width: 60%;
     height: 60px;
-
 }
 
 .logo,
 .bottone {
-  
     padding: 5px;
-
 }
 
 .white-bar {
@@ -362,46 +336,45 @@ margin-bottom: 15px;
 
 
 .signup-bottom {
-    background-color:#295fe7;
+    background-color: #295fe7;
     color: white;
     padding: 10px 15px;
     border-radius: 20px;
 }
 
 .social-icons {
-  margin-top: 20px;
-  display: flex;
-  gap: 10px;           
+    margin-top: 20px;
+    display: flex;
+    gap: 10px;
 }
 
 .social-icons a {
-  color: white;          
-  font-size: 22px;       
- 
+    color: white;
+    font-size: 22px;
+
 }
 
 .lang-box {
-  display: flex;
-  align-items: center;
-  gap: 8px;                   
-  margin-top: 10px;            
-  
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    margin-top: 10px;
 }
 
 .lang-box .flag {
-  width: 8px ;                
-  height: 8px ;
-  border-radius: 2px;
-  object-fit: cover;
+    width: 8px;
+    height: 8px;
+    border-radius: 2px;
+    object-fit: cover;
 }
 
 .lang-box span {
-  color: white;
-  font-size: 16px;
+    color: white;
+    font-size: 16px;
 }
 
 .lang-box i {
-  color: white;
-  font-size: 12px;
-  transition: transform 0.2s ease;
+    color: white;
+    font-size: 12px;
+    transition: transform 0.2s ease;
 }
